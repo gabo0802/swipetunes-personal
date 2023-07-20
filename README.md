@@ -1,5 +1,6 @@
-# Milestone 2 - Swipetunes
+# Swipetunes
 
+* This project was done by Gabriel Castejon, Benita Abraham, Vasanth Banumurthy, and Victor Akolo
 ## Table of Contents
 
 1. [Overview](#Overview)
