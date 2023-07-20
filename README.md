@@ -13,7 +13,9 @@
 
 ## Current Progress (Milestone 2)
 
-![swipetunesmilestone1](https://user-images.githubusercontent.com/94129178/232671134-81b62994-e386-4094-98e3-18cc1f02d644.gif)
+Demo video --> https://clipchamp.com/watch/HLIq3KhpWZh
+
+![swipetunesmilestone3](https://user-images.githubusercontent.com/94129178/234140216-567d4d31-99b1-48f8-8460-e031245dc38f.gif)
 
 
 ### Description
