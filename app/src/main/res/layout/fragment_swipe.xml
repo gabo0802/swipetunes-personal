@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".swipeFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/egg">
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="374dp"
+            android:layout_height="375dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/egg"
+            android:padding="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/blondie" />
+
+        <TextView
+            android:id="@+id/song"
+            android:layout_width="393dp"
+            android:layout_height="63dp"
+            android:fontFamily="@font/caveat_bold"
+            android:text="Song"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="48sp"
+            app:layout_constraintEnd_toEndOf="@+id/cover"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@+id/cover"
+            app:layout_constraintTop_toBottomOf="@+id/cover" />
+
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="383dp"
+            android:layout_height="37dp"
+            android:fontFamily="@font/caveat_bold"
+            android:text="Artist"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/song"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="@+id/song"
+            app:layout_constraintTop_toBottomOf="@+id/song" />
+
+        <ImageView
+            android:id="@+id/pause"
+            android:layout_width="176dp"
+            android:layout_height="153dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/pause"
+            app:layout_constraintEnd_toStartOf="@+id/play"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/artist"
+            app:layout_constraintTop_toBottomOf="@+id/artist" />
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="176dp"
+            android:layout_height="153dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/play"
+            app:layout_constraintEnd_toEndOf="@+id/artist"
+            app:layout_constraintHorizontal_bias="0.937"
+            app:layout_constraintStart_toStartOf="@+id/artist"
+            app:layout_constraintTop_toBottomOf="@+id/artist" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
